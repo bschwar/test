@@ -1,8 +1,6 @@
 <?php
 	require_once("includes/model.php");
 	
-	
-	
 	if(isset($_POST['action']) && $_POST['action'] == "Add Page"){
 		$test=rand(0,5);
 		$q1 = $_POST['q1'];
